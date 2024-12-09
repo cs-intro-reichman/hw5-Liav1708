@@ -139,7 +139,7 @@ public class Scrabble {
 				if(MyString.subsetOf(input, hand)){
 					score += wordScore(input);
 					hand = MyString.remove(hand, input);
-					System.out.println(input + " earned " + wordScore(input) + " points. Score: " + score + " points");
+					System.out.println(input + " earned " + wordScore(input) + " points. Score: " + score + " points\n");
 				}
 				else{
 					System.out.println("Invalid word. Try again.");
